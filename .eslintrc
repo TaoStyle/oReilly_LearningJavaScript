@@ -1,0 +1,31 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+      // enable additional rules
+      "indent": ["error", 2],
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "double"],
+      "semi": ["error", "always"],
+
+      // override default options for rules from base configurations
+      "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore"
+      }],
+      "no-cond-assign": ["error", "always"],
+
+
+      "no-console": "off",
+    }
+}

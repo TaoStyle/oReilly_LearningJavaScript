@@ -8,3 +8,7 @@ node_modules
 *.tmp
 *~
 *.log
+
+# es5 code
+/dist
+public/dist

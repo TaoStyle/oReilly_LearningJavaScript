@@ -1,0 +1,29 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Learning JavaScript, 3rd Edition",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaoStyle/oReilly_LearningJavaScript.git"
+  },
+  "author": "Sebastien Dufresne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaoStyle/oReilly_LearningJavaScript/issues"
+  },
+  "homepage": "https://github.com/TaoStyle/oReilly_LearningJavaScript#readme",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^5.0.0"
+  }
+}
